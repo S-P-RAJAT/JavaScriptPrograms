@@ -14,3 +14,15 @@ for(let i=0; i<5;i++)
 
 let avg = sum/5;
 console.log("sum = "+sum+" average = "+avg);
+
+let feetInInches = 12;
+console.log("\n42 inches in feet = "+ (1/feetInInches)*42);
+
+let feetinCM = 30.48;
+let areaInMeters = ((60*feetinCM/100) * (40*feetinCM)/100);
+console.log("Plot area in meters = "+areaInMeters);
+
+let squareMeterInAcre = 0.000247;
+let areaInAcres = areaInMeters * squareMeterInAcre;
+console.log("Plot area in Acres = "+areaInAcres);
+console.log("Plot area of 25 such plots = "+ 25 * areaInAcres);
