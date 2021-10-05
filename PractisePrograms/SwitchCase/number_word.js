@@ -37,4 +37,4 @@ switch (number) {
         break;
 }
 
-console.log("The number is "+word);
+console.log("The number is " + word);

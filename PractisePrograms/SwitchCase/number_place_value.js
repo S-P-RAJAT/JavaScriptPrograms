@@ -20,4 +20,4 @@ switch (number) {
         break;
 }
 
-console.log("The unit is "+unit);
+console.log("The unit is " + unit);

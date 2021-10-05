@@ -9,10 +9,10 @@ maximum = Number.MIN_VALUE
 
 for (let index = 0; index < 5; index++) {
     let digit = Math.floor(Math.random() * 1000);
-    
+
 }
 
-let array = [a+b*c,c+a/b,a%b+c,a*b+c];
+let array = [a + b * c, c + a / b, a % b + c, a * b + c];
 array.forEach(digit => {
     if (digit > maximum)
         maximum = digit
