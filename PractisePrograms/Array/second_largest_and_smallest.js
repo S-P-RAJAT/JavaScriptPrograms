@@ -9,5 +9,5 @@ console.log("Array before sorting: ", array);
 array.sort();
 
 console.log("Array after sorting: ", array);
-console.log("Second largest = ",array[1]);
-console.log("Second smallest = ",array[arraySize-2]);
+console.log("Second largest = ", array[1]);
+console.log("Second smallest = ", array[arraySize - 2]);

@@ -28,9 +28,9 @@ for (let index = 0; index < 10; index++) {
     let digit = Math.floor(Math.random() * 1000);
     array.push(digit);
 }
-console.log("Array: ",array);
-let n = array.length;
-secondLargest = findSecond(array, n, max, Number.MIN_VALUE);
+console.log("Array: ", array);
+let number = array.length;
+secondLargest = findSecond(array, number, max, Number.MIN_VALUE);
 if (secondLargest == null) {
     console.log("Invalid Input");
 } else if (secondLargest == Number.MIN_VALUE) {
@@ -39,7 +39,7 @@ if (secondLargest == null) {
     console.log("Second largest element: ", secondLargest);
 }
 
-secondSmallest = findSecond(array, n, min, Number.MAX_VALUE);
+secondSmallest = findSecond(array, number, min, Number.MAX_VALUE);
 if (secondSmallest == null) {
     console.log("Invalid Input");
 } else if (secondSmallest == Number.MAX_VALUE) {
